@@ -14,7 +14,7 @@ namespace HW5_ShayanMadahi_m97.Interface
         {
             CheckName(product.Name);
 
-            return "ok";
+            return "okk";
         }
 
         public string GetProductById(int id)
