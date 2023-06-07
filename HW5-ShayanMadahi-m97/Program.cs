@@ -7,11 +7,11 @@ namespace HW5_ShayanMadahi_m97
     {
         static void Main(string[] args)
         {
-            Product product=new Product();
+           string Name = "Tele1_23";
+           int ProductId = 1;
+           string Barcode = "1";
+            Product product = new Product(ProductId, Name, Barcode);
             ProductRepository repository=new ProductRepository();
-            product.Name = "Tele1_23";
-            product.ProductId = 1;
-            product.Barcode = "1";
             repository.AddProduct(product);
 
         }
