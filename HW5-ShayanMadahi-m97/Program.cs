@@ -9,7 +9,7 @@ namespace HW5_ShayanMadahi_m97
         {
             Product product=new Product();
             ProductRepository repository=new ProductRepository();
-            product.Name = "Tele1_23";
+            product.Name = "Aele1_86";
             product.ProductId = 1;
             product.Barcode = "1";
             repository.AddProduct(product);
